@@ -4,12 +4,12 @@ const userAge = prompt("Inserisci la tua età");
 const userColor = prompt("Inserisci il tuo colore");
 
 const welcomeMessage = `
-<h3><span style="color:red">Benvenuto</span> ${
+<h3><span style="color:red">Benvenuto/a</span> ${
   userName + userSurname + userAge + userColor
 }</h3>
 `;
 
-alert("Benvenuto " + userName + userSurname + userAge + userColor);
+alert("Benvenuto/a " + userName + userSurname + userAge + userColor);
 
 console.log(userName);
 console.log(userSurname);
