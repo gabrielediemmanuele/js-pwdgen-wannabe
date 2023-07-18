@@ -9,7 +9,7 @@ const welcomeMessage = `
 }</h3>
 `;
 
-alert(welcomeMessage);
+alert("Benvenuto " + userName + userSurname + userAge + userColor);
 
 console.log(userName);
 console.log(userSurname);
