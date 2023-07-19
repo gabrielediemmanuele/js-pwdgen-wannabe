@@ -20,10 +20,10 @@ alert(
     userColor
 );
 
-console.log(userName);
-console.log(userSurname);
-console.log(userAge);
-console.log(userColor);
+console.log("Name: " + userName);
+console.log("Surname: " + userSurname);
+console.log("Age: " + userAge);
+console.log("Color: " + userColor);
 
 document.getElementById("user-feedback").innerHTML = welcomeMessage;
 
